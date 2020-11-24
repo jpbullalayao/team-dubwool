@@ -13,8 +13,11 @@ const IndexPage = () => (
   // <Layout>
   <div className="bg">    
     <div className="container bg">
-      <div className="logo cell">
-        <img src={TeamDubwool} />
+      <div className="cell">
+        <img
+          src={TeamDubwool}
+          className="logo"
+        />
       </div>
       <div className="cell">
         <div className="team-name">
