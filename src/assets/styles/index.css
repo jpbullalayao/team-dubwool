@@ -89,14 +89,23 @@
     margin-top: 25px;
     font-size: 45px;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.25;
+  }
+
+  .section-discord {
+    display: flex;
+    margin-top: 25px;
+  }
+
+  .discord-text {
+    padding-top: 25px;
   }
 
   .discord-logo {
     width: 80px;
   }
 
-  .discord-text {
-    padding-top: 20px;
+  .footer {
+    margin-top: 5px;
   }
 }
