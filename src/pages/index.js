@@ -5,18 +5,60 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import '../assets/styles/index.css';
+import TeamDubwool from '../images/team-dubwool.png';
+import Discord from '../images/discord.png';
+
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+  // <Layout>
+  <div className="bg">    
+    <div className="container bg">
+      <div className="logo cell">
+        <img src={TeamDubwool} />
+      </div>
+      <div className="cell">
+        <div className="team-name">
+          Team Dubwool
+        </div>
+      </div>
+
+      <section
+        className="section-discord"
+      >
+        <div
+          className="section-discord-item"
+        >
+          <a href="https://discord.gg/4EtN3Zu">
+            <img
+              src={Discord}
+              className="discord-logo"
+            />
+          </a>
+        </div>
+        <div
+          className="section-discord-item"
+        >
+          <a
+            href="https://discord.gg/4EtN3Zu"
+            className="discord-text"
+          >
+            Join us on Discord!
+          </a>
+        </div>          
+      </section>
+
+      <footer className="footer">
+        Built by
+        <a
+          className="twitter-name"
+          href="https://twitter.com/professorragna"
+        >
+          &nbsp;@professorragna
+        </a>
+      </footer>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+  </div>
+  // </Layout>
 )
 
 export default IndexPage
