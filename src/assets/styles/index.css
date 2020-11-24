@@ -85,6 +85,11 @@
     width: 100%;
   }
 
+  .logo {
+    height: 250px;
+    width: 250px;
+  }
+
   .team-name {
     margin-top: 25px;
     font-size: 45px;
