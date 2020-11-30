@@ -9,22 +9,79 @@
   /* src: local('BatmanForeverAlternate'), url('../fonts/batmfa__.ttf') format('ttf'); */
 }
 
-.bg {
+/* .bg {
   background-color: #000;
-}
+} */
 
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  max-width: 720px;
-  align-items: center;
+  /* height: 100vh; */
+  max-width: 1000px;
+  /* align-items: center; */
   margin: auto;
 }
+
+.subheader {
+  font-family: 'BatmanForeverAlternate';
+  font-size: 48px;
+}
+
+.body {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.black {
+  color: #000;
+}
+
+.white {
+  color: #fff;
+}
+
+.section {
+  padding: 20px;
+  width: 100%;
+}
+
+/* .section:nth-child(even) {
+  background: #000;
+}
+
+.section:nth-child(even) .subheader {
+  color: #fff;
+} */
 
 .cell {
   display: flex;
   justify-content: center;
+}
+
+.nav {
+  background-color: #000;
+  display: flex;
+  padding: 10px;
+}
+
+.logo-container {
+  display: flex;
+  height: 65px;
+  text-decoration: none;
+}
+
+.nav-logo {
+  width: 65px;
+  height: 65px;
+  margin: 0;
 }
 
 .logo {
@@ -36,8 +93,43 @@
 .team-name {
   font-family: 'BatmanForeverAlternate';
   color: #fff;
-  font-size: 60px;
-  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  /* font-size: 60px;
+  margin-top: 50px; */
+}
+
+.roster {
+  display: flex;
+  flex-direction: column;
+}
+
+.roster-row {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-bottom: 15px;
+}
+
+.team-member {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 15px; 
+}
+
+.team-member-name {
+  font-family: 'BatmanForeverAlternate';
+  font-size: 16px;
+}
+
+.avatar {
+  border-radius: 50px;
+  width: 100px;
 }
 
 .section-discord {
@@ -88,6 +180,7 @@
   .logo {
     height: 250px;
     width: 250px;
+    border: 1px solid black;
   }
 
   .team-name {
