@@ -49,8 +49,12 @@
 }
 
 .section {
-  padding: 20px;
+  padding: 40px;
   width: 100%;
+}
+
+.section-about {
+  padding-top: 125px;
 }
 
 /* .section:nth-child(even) {
@@ -70,6 +74,8 @@
   background-color: #000;
   display: flex;
   padding: 10px;
+  position: fixed;
+  width: 100%;
 }
 
 .logo-container {
@@ -129,21 +135,52 @@
 
 .avatar {
   border-radius: 50px;
+  height: 100px;
   width: 100px;
+}
+
+.coaching-info-container {
+  display: flex;
+  align-items: center;
+  /* height: 300px; */
+}
+
+.coaching-avatar-container {
+  height: 300px;
+}
+
+.coaching-avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.coaching-info-body-container {
+  flex: 1;
+  margin-left: 25px;
+}
+
+.coaching-email {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .section-discord {
   display: flex;
-  margin-top: 50px;
+  justify-content: center;
+  padding: 15px;
 }
 
 .section-discord-item {
   display: flex;
-  /* align-items: center; */
+  height: 75px;
 }
 
 .discord-logo {
-  width: 110px;
+  width: 75px;
 }
 
 .discord-text {
@@ -151,20 +188,25 @@
   font-family: 'BatmanForeverAlternate';
   text-decoration: none;
   padding-left: 20px;
-  padding-top: 40px;
+  padding-top: 25px;
 }
 
 .discord-text:hover {
   cursor: pointer;
 }
 
+.team-email {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .footer {
   color: white;
   font-family: 'BatmanForeverAlternate';
   text-align: center;
-  font-size: 12px;
-  margin-top: 20px;
-  padding-bottom: 25px;
+  font-size: 14px;
+  padding: 25px 0;
 }
 
 .twitter-name {
