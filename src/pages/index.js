@@ -9,6 +9,7 @@ import '../assets/styles/index.css';
 import TeamDubwool from '../images/team-dubwool.png';
 import Discord from '../images/discord.png';
 
+import favicon from '../images/favicon.ico';
 import Brain from '../assets/roster/brain.png';
 import Echo from '../assets/roster/echo.jpg';
 import Gab from '../assets/roster/gab.jpg';
