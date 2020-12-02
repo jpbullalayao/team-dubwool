@@ -54,7 +54,7 @@ const IndexPage = () => (
         </h2>
 
         <div className="roster">
-          <div className="roster-row">
+          {/* <div className="roster-row"> */}
             <div className="team-member">
               <img 
                 src={Echo}
@@ -94,9 +94,9 @@ const IndexPage = () => (
                 Professor Ragna
               </h3>
             </div>
-          </div>
+          {/* </div> */}
 
-          <div className="roster-row">
+          {/* <div className="roster-row"> */}
             <div className="team-member">
               <img 
                 src={Justin}
@@ -136,7 +136,7 @@ const IndexPage = () => (
                 Gabu
               </h3>
             </div>
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </section>

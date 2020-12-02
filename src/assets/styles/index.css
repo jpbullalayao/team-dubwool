@@ -108,8 +108,9 @@
 }
 
 .roster {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  /* flex-direction: column; */
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .roster-row {
@@ -125,12 +126,14 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 15px; 
+  /* padding: 0 15px;  */
+  /* margin-bottom: 15px; */
 }
 
 .team-member-name {
   font-family: 'BatmanForeverAlternate';
   font-size: 16px;
+  margin: 0;
 }
 
 .avatar {
@@ -219,22 +222,68 @@
     width: 100%;
   }
 
+  .section {
+    padding: 25px;
+  }
+
+  .body {
+    font-size: 16px;
+  }
+
+  .subheader {
+    font-size: 32px;
+  }
+
+  .section-about {
+    padding-top: 115px;
+  }
+
   .logo {
     height: 250px;
     width: 250px;
     border: 1px solid black;
   }
 
-  .team-name {
-    margin-top: 25px;
-    font-size: 45px;
+  .roster {
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .avatar {
+    height: 75px;
+    width: 75px;
+  }
+
+  .team-member {
+    margin-bottom: 25px;
+  }
+
+  .team-member-name {
+    font-size: 14px;
     text-align: center;
-    line-height: 1.25;
+    margin: 0;
+  }
+
+  .coaching-info-container {
+    flex-direction: column;
+  }
+
+  .coaching-avatar-container {
+    height: 150px;
+  }
+
+  .coaching-avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  .coaching-info-body-container {
+    margin: 15px 0 0 0;
   }
 
   .section-discord {
     display: flex;
-    margin-top: 25px;
+    padding: 10px;
   }
 
   .discord-text {
