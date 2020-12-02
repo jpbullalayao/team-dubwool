@@ -126,8 +126,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* padding: 0 15px;  */
-  /* margin-bottom: 15px; */
+  margin-bottom: 30px;
 }
 
 .team-member-name {
@@ -145,7 +144,6 @@
 .coaching-info-container {
   display: flex;
   align-items: center;
-  /* height: 300px; */
 }
 
 .coaching-avatar-container {
