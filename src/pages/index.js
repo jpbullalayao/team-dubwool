@@ -29,7 +29,7 @@ const IndexPage = () => (
   <Layout>
   <div className="bg">
     <nav className="nav">
-      <a href="#" className="logo-container">
+      <a href="https://www.teamdubwool.com" className="logo-container">
         <div className="">
           <img
             src={TeamDubwool}
