@@ -254,6 +254,7 @@
 
   .team-member {
     margin-bottom: 25px;
+    justify-content: center;
   }
 
   .team-member-name {

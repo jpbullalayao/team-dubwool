@@ -25,7 +25,19 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TSJKGSGNF"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push('js', newDate());
+          window.dataLayer.push('config', 'G-1TSJKGSGNF');
+
+        </script>
+        </head>
+        <main>
+          {children}
+        </main>
+      {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
           margin: `0 auto`,
@@ -41,7 +53,7 @@ const Layout = ({ children }) => {
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
-      </div>
+      </div> */}
     </>
   )
 }

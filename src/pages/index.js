@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import { Helmet } from "react-helmet"
+
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -20,7 +22,16 @@ import Pride from '../assets/roster/pride.png';
 import Ragna from '../assets/roster/ragna.jpg';
 
 const IndexPage = () => (
-  // <Layout>
+  <>
+  <Helmet>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push('js', newDate());
+      window.dataLayer.push('config', 'G-1TSJKGSGNF');
+    </script>
+    <title>Hey</title>
+  </Helmet>
+  <Layout>
   <div className="bg">
     <nav className="nav">
       <a href="#" className="logo-container">
@@ -222,7 +233,8 @@ const IndexPage = () => (
       </a>
     </footer>
   </div>
-  // </Layout>
+  </Layout>
+  </>
 )
 
 export default IndexPage
