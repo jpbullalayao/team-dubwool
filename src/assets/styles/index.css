@@ -9,22 +9,85 @@
   /* src: local('BatmanForeverAlternate'), url('../fonts/batmfa__.ttf') format('ttf'); */
 }
 
-.bg {
+/* .bg {
   background-color: #000;
-}
+} */
 
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  max-width: 720px;
-  align-items: center;
+  /* height: 100vh; */
+  max-width: 1000px;
+  /* align-items: center; */
   margin: auto;
 }
+
+.subheader {
+  font-family: 'BatmanForeverAlternate';
+  font-size: 48px;
+}
+
+.body {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.black {
+  color: #000;
+}
+
+.white {
+  color: #fff;
+}
+
+.section {
+  padding: 40px;
+  width: 100%;
+}
+
+.section-about {
+  padding-top: 125px;
+}
+
+/* .section:nth-child(even) {
+  background: #000;
+}
+
+.section:nth-child(even) .subheader {
+  color: #fff;
+} */
 
 .cell {
   display: flex;
   justify-content: center;
+}
+
+.nav {
+  background-color: #000;
+  display: flex;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  height: 65px;
+  text-decoration: none;
+}
+
+.nav-logo {
+  width: 65px;
+  height: 65px;
+  margin: 0;
 }
 
 .logo {
@@ -36,22 +99,89 @@
 .team-name {
   font-family: 'BatmanForeverAlternate';
   color: #fff;
-  font-size: 60px;
-  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  /* font-size: 60px;
+  margin-top: 50px; */
+}
+
+.roster {
+  display: grid;
+  /* flex-direction: column; */
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.roster-row {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-bottom: 15px;
+}
+
+.team-member {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.team-member-name {
+  font-family: 'BatmanForeverAlternate';
+  font-size: 16px;
+  margin: 0;
+}
+
+.avatar {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+}
+
+.coaching-info-container {
+  display: flex;
+  align-items: center;
+}
+
+.coaching-avatar-container {
+  height: 300px;
+}
+
+.coaching-avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.coaching-info-body-container {
+  flex: 1;
+  margin-left: 25px;
+}
+
+.coaching-email {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .section-discord {
   display: flex;
-  margin-top: 50px;
+  justify-content: center;
+  padding: 15px;
 }
 
 .section-discord-item {
   display: flex;
-  /* align-items: center; */
+  height: 75px;
 }
 
 .discord-logo {
-  width: 110px;
+  width: 75px;
 }
 
 .discord-text {
@@ -59,20 +189,25 @@
   font-family: 'BatmanForeverAlternate';
   text-decoration: none;
   padding-left: 20px;
-  padding-top: 40px;
+  padding-top: 25px;
 }
 
 .discord-text:hover {
   cursor: pointer;
 }
 
+.team-email {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .footer {
   color: white;
   font-family: 'BatmanForeverAlternate';
   text-align: center;
-  font-size: 12px;
-  margin-top: 20px;
-  padding-bottom: 25px;
+  font-size: 14px;
+  padding: 25px 0;
 }
 
 .twitter-name {
@@ -85,21 +220,68 @@
     width: 100%;
   }
 
+  .section {
+    padding: 25px;
+  }
+
+  .body {
+    font-size: 16px;
+  }
+
+  .subheader {
+    font-size: 32px;
+  }
+
+  .section-about {
+    padding-top: 115px;
+  }
+
   .logo {
     height: 250px;
     width: 250px;
+    border: 1px solid black;
   }
 
-  .team-name {
-    margin-top: 25px;
-    font-size: 45px;
+  .roster {
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .avatar {
+    height: 75px;
+    width: 75px;
+  }
+
+  .team-member {
+    margin-bottom: 25px;
+  }
+
+  .team-member-name {
+    font-size: 14px;
     text-align: center;
-    line-height: 1.25;
+    margin: 0;
+  }
+
+  .coaching-info-container {
+    flex-direction: column;
+  }
+
+  .coaching-avatar-container {
+    height: 150px;
+  }
+
+  .coaching-avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  .coaching-info-body-container {
+    margin: 15px 0 0 0;
   }
 
   .section-discord {
     display: flex;
-    margin-top: 25px;
+    padding: 10px;
   }
 
   .discord-text {
