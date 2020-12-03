@@ -31,4 +31,12 @@
   .blog-section {
     margin-top: 15px;
   }
+
+  .blog-post-title {
+    font-size: 28px;
+  }
+
+  .blog-post-subtitle {
+    font-size: 24px;
+  }
 }

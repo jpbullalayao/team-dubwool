@@ -31,7 +31,7 @@ export const Post = () => (
 
     <div class="container blog-post-container">
       <div class="title-section">
-        <h1>The NUT Cracker (How to Beat the NUT Core in Pokemon VGC)</h1>
+        <h1 className="blog-post-title">The NUT Cracker (How to Beat the NUT Core in Pokemon VGC)</h1>
         Written by:&nbsp;
         <a
           href="https://twitter.com/echo_rose"
@@ -45,7 +45,7 @@ export const Post = () => (
       <p>So, the NUT core. Even if you haven’t heard of it’s admittedly ridiculous acronym, you’ve almost certainly seen the core in some capacity - Nihilego, Urshifu, and Thundurus. This is a hyper offensive core that covers its own bases relatively well, but there are a few things that give NUT cores trouble. Before we get into that, let’s instead look at the common items and moves on these three Pokemon, as well as what to expect when facing them, and the Pokemon that commonly accompany them into battle.</p>
 
       <div className="blog-section">
-        <h2>N - Nihilego</h2>
+        <h2 className="blog-post-subtitle">N - Nihilego</h2>
         <p>
           Nihilego @ Power Herb<br />
           Ability: Beast Boost<br />
@@ -71,7 +71,7 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2>U - Urshifu</h2>
+        <h2 className="blog-post-subtitle">U - Urshifu</h2>
         <p>
           Urshifu (Single Strike) @ Choice Band/Focus Sash<br />
           Ability: Unseen Fist<br />
@@ -92,7 +92,7 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2>T - Thundurus</h2>
+        <h2 className="blog-post-subtitle">T - Thundurus</h2>
 
         <p>
           Thundurus (M) @ Life Orb<br />
@@ -116,7 +116,7 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2>Regirock</h2>
+        <h2 className="blog-post-subtitle">Regirock</h2>
 
         <p>
           Regirock @ Leftovers<br />
@@ -175,7 +175,7 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2>Tapu Koko</h2>
+        <h2 className="blog-post-subtitle">Tapu Koko</h2>
 
         <p>
           Tapu Koko @ Shuca Berry<br />
@@ -228,7 +228,7 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2>Rhyperior</h2>
+        <h2 className="blog-post-subtitle">Rhyperior</h2>
 
         <p>
           Rhyperior @ Weakness Policy<br />
@@ -273,7 +273,7 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2>Gastrodon</h2>
+        <h2 className="blog-post-subtitle">Gastrodon</h2>
 
         <p>
           Gastrodon @ Expert Belt<br />
@@ -326,7 +326,7 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2>Burns</h2>
+        <h2 className="blog-post-subtitle">Burns</h2>
 
         <p>WilloWisp is an amazing option for crippling Urshifu and Thundurus. Some Thundurus are adapting to hold the Lum Berry for this reason, but then Thundurus + Urshifu loses a lot of its power in exchange for preventing a certain scenario once. For this reason, burning the Urshifu is recommended, as the Urshifu will never carry a Lum Berry. Some notable examples that could potentially utilize these moves to cripple these Pokemon are Spectrier and Dragapult, who outspeed both members of the core and can dodge a Sucker Punch due to launching a Willo instead of an attacking move.</p>
 
@@ -334,19 +334,19 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2>Fake Out</h2>
+        <h2 className="blog-post-subtitle">Fake Out</h2>
 
         <p>If you can immobilize the Urshifu for a turn, or KO it before it gets a chance to move (like with Tapu Koko, for example), the core loses a lot of its immediate power. Urshifu is really the big threat of this core, to be honest.</p>
       </div>
 
       <div className="blog-section">
-        <h2>Screens</h2>
+        <h2 className="blog-post-subtitle">Screens</h2>
 
         <p>Screens don’t help as much as burns do, due to Urshifu straight up ignoring them with crits, but if Urshifu is removed, screens can help mitigate a lot of the damage coming from the rest of the team.</p>
       </div>
 
       <div className="blog-section">
-        <h2>Trick Room</h2>
+        <h2 className="blog-post-subtitle">Trick Room</h2>
 
         <p>The NUT core generally relies on speed control in the form of going fast, so if you can find a Pokemon that lives the onslaught of attacks, Trick Room becomes a very good option. Cresselia comes to mind - with a Colbur Berry, 236 HP investment, 180 in Defense and a Bold Nature, it will live the attacks from Thundurus and Urshifu and set up Trick Room, where it can then Moonblast into Urshifu or Ice Beam into Thundurus.</p>
 
@@ -364,7 +364,7 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2>Teammates</h2>
+        <h2 className="blog-post-subtitle">Teammates</h2>
 
         <p>Now, only bringing 3 Pokemon to a battle is a bad idea, and so here are the Pokemon you are likely to see alongside the NUT core.</p>
 
@@ -403,7 +403,7 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2>Final Thoughts</h2>
+        <h2 className="blog-post-subtitle">Final Thoughts</h2>
 
         <p>NUT is a powerful core, but it is far from indomitable. With a few preparations, it becomes just another matchup. The examples listed here are certainly good ways to overcome NUT, but don’t limit yourself. Try out the ideas here, and once you have a handle on NUT, feel free to try out some new things! There are a lot of options that aren’t listed here - let your creative genius flow, and crack the NUT with an idea all your own!</p>
 
