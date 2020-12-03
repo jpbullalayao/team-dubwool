@@ -24,12 +24,7 @@ import Ragna from '../assets/roster/ragna.jpg';
 const IndexPage = () => (
   <>
   <Helmet>
-    <script type="text/javascript">
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push('js', newDate());
-      window.dataLayer.push('config', 'G-1TSJKGSGNF');
-    </script>
-    <title>Hey</title>
+    <title>Team Dubwool</title>
   </Helmet>
   <Layout>
   <div className="bg">

@@ -25,18 +25,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TSJKGSGNF"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          window.dataLayer.push('js', newDate());
-          window.dataLayer.push('config', 'G-1TSJKGSGNF');
-
-        </script>
-        </head>
-        <main>
-          {children}
-        </main>
+      <main>
+        {children}
+      </main>
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
