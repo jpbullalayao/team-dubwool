@@ -414,6 +414,16 @@ export const Post = () => (
     </div>
 
     </div>
+
+    <footer className="footer bg-black">
+      Built by
+      <a
+        className="twitter-name"
+        href="https://twitter.com/professorragna"
+      >
+        &nbsp;@professorragna
+      </a>
+    </footer>
   </Layout>
 );
 
