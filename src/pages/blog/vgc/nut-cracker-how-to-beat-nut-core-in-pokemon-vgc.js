@@ -8,7 +8,7 @@ import '../../../assets/styles/index.css';
 
 import Clefairy from '../../../assets/pokemon/clefairy.png';
 import Cresselia from '../../../assets/pokemon/cresselia.png';
-import Dragapult from '../../../assets/pokemon/Dragapult.png';
+import Dragapult from '../../../assets/pokemon/dragapult.png';
 import Fini from '../../../assets/pokemon/fini.png';
 import GastrodonWest from '../../../assets/pokemon/gastro-pink.png';
 import GastrodonEast from '../../../assets/pokemon/gastro-blue.png';
