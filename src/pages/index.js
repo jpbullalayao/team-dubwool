@@ -16,6 +16,7 @@ import Brain from '../assets/roster/brain.png';
 import Echo from '../assets/roster/echo.jpg';
 import Gab from '../assets/roster/gab.jpg';
 import Justin from '../assets/roster/justin.png';
+import Midori from '../assets/roster/midori.jpg';
 import MrPig from '../assets/roster/mrpig.png';
 import Muk from '../assets/roster/muk.jpg';
 import Pride from '../assets/roster/pride.png';
@@ -92,15 +93,6 @@ const IndexPage = () => (
               </h3>
             </div>
 
-            <div className="team-member">
-              <img 
-                src={Ragna}
-                className="avatar"
-              />
-              <h3 className="team-member-name">
-                Professor Ragna
-              </h3>
-            </div>
           {/* </div> */}
 
           {/* <div className="roster-row"> */}
@@ -131,6 +123,26 @@ const IndexPage = () => (
               />
               <h3 className="team-member-name">
                 MrPig28
+              </h3>
+            </div>
+
+            <div className="team-member">
+              <img 
+                src={Ragna}
+                className="avatar"
+              />
+              <h3 className="team-member-name">
+                Professor Ragna
+              </h3>
+            </div>
+
+            <div className="team-member">
+              <img 
+                src={Midori}
+                className="avatar"
+              />
+              <h3 className="team-member-name">
+                Midori
               </h3>
             </div>
 
