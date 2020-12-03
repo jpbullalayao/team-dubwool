@@ -6,6 +6,30 @@ import TeamDubwool from '../../../images/team-dubwool.png';
 import '../../../assets/styles/blog-post.css';
 import '../../../assets/styles/index.css';
 
+import Clefairy from '../../../assets/pokemon/clefairy.png';
+import Cresselia from '../../../assets/pokemon/cresselia.png';
+import Dragapult from '../../../assets/pokemon/Dragapult.png';
+import Fini from '../../../assets/pokemon/fini.png';
+import GastrodonWest from '../../../assets/pokemon/gastro-pink.png';
+import GastrodonEast from '../../../assets/pokemon/gastro-blue.png';
+import Grimmsnarl from '../../../assets/pokemon/grimmsnarl.png';
+import Kartana from '../../../assets/pokemon/kartana.png';
+import Koko from '../../../assets/pokemon/koko.png';
+import Mamoswine from '../../../assets/pokemon/mamoswine.png';
+import Metagross from '../../../assets/pokemon/metagross.png';
+import Moltres from '../../../assets/pokemon/moltres-g.png';
+import Nihilego from '../../../assets/pokemon/nihilego.png';
+import Raichu from '../../../assets/pokemon/raichu.png';
+import Regieleki from '../../../assets/pokemon/regieleki.png';
+import Regirock from '../../../assets/pokemon/regirock.png';
+import Rhyperior from '../../../assets/pokemon/rhyperior.png';
+import RotomHeat from '../../../assets/pokemon/rotom-h.png';
+import Spectrier from '../../../assets/pokemon/spectrier.png';
+import Thundurus from '../../../assets/pokemon/thundurus.png';
+import Torkoal from '../../../assets/pokemon/torkoal.png';
+import Urshifu from '../../../assets/pokemon/urshifu.png';
+import Venusaur from '../../../assets/pokemon/venusaur.png';
+
 export const Post = () => (
   <Layout>
     <SEO
@@ -45,7 +69,11 @@ export const Post = () => (
       <p>So, the NUT core. Even if you haven’t heard of it’s admittedly ridiculous acronym, you’ve almost certainly seen the core in some capacity - Nihilego, Urshifu, and Thundurus. This is a hyper offensive core that covers its own bases relatively well, but there are a few things that give NUT cores trouble. Before we get into that, let’s instead look at the common items and moves on these three Pokemon, as well as what to expect when facing them, and the Pokemon that commonly accompany them into battle.</p>
 
       <div className="blog-section">
-        <h2 className="blog-post-subtitle">N - Nihilego</h2>
+        <h2 className="blog-post-subtitle">
+          N - Nihilego
+          <img src={Nihilego} alt="Nihilego" className="sprite" />
+        </h2>
+
         <p>
           Nihilego @ Power Herb<br />
           Ability: Beast Boost<br />
@@ -71,7 +99,10 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2 className="blog-post-subtitle">U - Urshifu</h2>
+        <h2 className="blog-post-subtitle">
+          U - Urshifu
+          <img src={Urshifu} alt="Urshifu" className="sprite" />
+        </h2>
         <p>
           Urshifu (Single Strike) @ Choice Band/Focus Sash<br />
           Ability: Unseen Fist<br />
@@ -92,7 +123,10 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2 className="blog-post-subtitle">T - Thundurus</h2>
+        <h2 className="blog-post-subtitle">
+          T - Thundurus
+          <img src={Thundurus} alt="Thundurus" className="sprite" />
+        </h2>
 
         <p>
           Thundurus (M) @ Life Orb<br />
@@ -116,7 +150,10 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2 className="blog-post-subtitle">Regirock</h2>
+        <h2 className="blog-post-subtitle">
+          Regirock
+          <img src={Regirock} alt="Regirock" className="sprite" />
+        </h2>
 
         <p>
           Regirock @ Leftovers<br />
@@ -175,7 +212,10 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2 className="blog-post-subtitle">Tapu Koko</h2>
+        <h2 className="blog-post-subtitle">
+          Tapu Koko
+          <img src={Koko} alt="Tapu Koko" className="sprite" />
+        </h2>
 
         <p>
           Tapu Koko @ Shuca Berry<br />
@@ -228,7 +268,10 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2 className="blog-post-subtitle">Rhyperior</h2>
+        <h2 className="blog-post-subtitle">
+          Rhyperior
+          <img src={Rhyperior} alt="Rhyperior" className="sprite" />
+        </h2>
 
         <p>
           Rhyperior @ Weakness Policy<br />
@@ -273,7 +316,11 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2 className="blog-post-subtitle">Gastrodon</h2>
+        <h2 className="blog-post-subtitle">
+          Gastrodon
+          <img src={GastrodonWest} alt="Gastrodon-West" className="sprite" />
+          <img src={GastrodonEast} alt="Gastrodon-East" className="sprite" />
+        </h2>
 
         <p>
           Gastrodon @ Expert Belt<br />
@@ -326,7 +373,11 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2 className="blog-post-subtitle">Burns</h2>
+        <h2 className="blog-post-subtitle">
+          Burns
+          <img src={Spectrier} alt="Spectrier" className="sprite" />
+          <img src={Dragapult} alt="Dragapult" className="sprite" />
+        </h2>
 
         <p>WilloWisp is an amazing option for crippling Urshifu and Thundurus. Some Thundurus are adapting to hold the Lum Berry for this reason, but then Thundurus + Urshifu loses a lot of its power in exchange for preventing a certain scenario once. For this reason, burning the Urshifu is recommended, as the Urshifu will never carry a Lum Berry. Some notable examples that could potentially utilize these moves to cripple these Pokemon are Spectrier and Dragapult, who outspeed both members of the core and can dodge a Sucker Punch due to launching a Willo instead of an attacking move.</p>
 
@@ -334,19 +385,28 @@ export const Post = () => (
       </div>
 
       <div className="blog-section">
-        <h2 className="blog-post-subtitle">Fake Out</h2>
+        <h2 className="blog-post-subtitle">
+          Fake Out
+          <img src={Raichu} alt="Raichu" className="sprite" />
+        </h2>
 
         <p>If you can immobilize the Urshifu for a turn, or KO it before it gets a chance to move (like with Tapu Koko, for example), the core loses a lot of its immediate power. Urshifu is really the big threat of this core, to be honest.</p>
       </div>
 
       <div className="blog-section">
-        <h2 className="blog-post-subtitle">Screens</h2>
+        <h2 className="blog-post-subtitle">
+          Screens
+          <img src={Grimmsnarl} alt="Grimmsnarl" className="sprite" />
+        </h2>
 
         <p>Screens don’t help as much as burns do, due to Urshifu straight up ignoring them with crits, but if Urshifu is removed, screens can help mitigate a lot of the damage coming from the rest of the team.</p>
       </div>
 
       <div className="blog-section">
-        <h2 className="blog-post-subtitle">Trick Room</h2>
+        <h2 className="blog-post-subtitle">
+          Trick Room
+          <img src={Cresselia} alt="Cresselia" className="sprite" />
+        </h2>
 
         <p>The NUT core generally relies on speed control in the form of going fast, so if you can find a Pokemon that lives the onslaught of attacks, Trick Room becomes a very good option. Cresselia comes to mind - with a Colbur Berry, 236 HP investment, 180 in Defense and a Bold Nature, it will live the attacks from Thundurus and Urshifu and set up Trick Room, where it can then Moonblast into Urshifu or Ice Beam into Thundurus.</p>
 
@@ -368,10 +428,20 @@ export const Post = () => (
 
         <p>Now, only bringing 3 Pokemon to a battle is a bad idea, and so here are the Pokemon you are likely to see alongside the NUT core.</p>
 
-        <b>Clefairy</b>
+        <b className="teammate">
+          Clefairy
+          <img src={Clefairy} alt="Clefairy" className="sprite" />
+        </b>
         <p>Clefairy is very commonly run on the NUT core in order to give it a defensive backbone. Since the team relies so heavily on offense, a strong defensive option like Clefairy provides much needed support. It also allows for a pseudo Trick Room answer if it carries Sing or After You, though just clicking Follow Me also buys it’s teammates a turn.</p>
 
-        <b>Rotom-Heat / Tapu Fini / Kartana</b>
+        <b className="teammate">
+          Rotom-H
+          / Tapu Fini
+          / Kartana
+          <img src={RotomHeat} alt="Rotom-Heat" className="sprite" />
+          <img src={Fini} alt="Tapu Fini" className="sprite" />
+          <img src={Kartana} alt="Kartana" className="sprite" />
+          </b>
         <p>This is another core that is very strong, and for good reason. If you see these next to a NUT core, your Rhyperior and Gastrodon may struggle a bit, but still consider bringing them to help against NUT and Rotom-Heat, since both Gastro and Rhyperior beat Rotom-H in a 1v1. Regirock, however, is a defensive behemoth.</p>
 
         <p>
@@ -386,19 +456,35 @@ export const Post = () => (
 
         <p>But most Kartana aren’t running 252 Attack right now. A lot of them are investing in Speed and Special Defense, with an Assault Vest. So there’s a chance that your Regirock will take even less damage than what was shown here. Tapu Koko is still a must bring against this, though, for it’s output against Fini and Urshifu.</p>
 
-        <b>Metagross</b>
+        <b className="teammate">
+          Metagross
+          <img src={Metagross} alt="Metagross" className="sprite" />
+        </b>
         <p>Some Thundurus variants run a Metagross on the team, and if this is the case, it is best to be vigilant. If you see a Metagross + Thundurus lead, chances are that the Thundurus is also running Brutal Swing to self proc what is likely a Weakness Policy on the Metagross. The Thundurus on these types of teams also tend to be an Assault Vest variant, so keep that in mind.</p>
 
-        <b>Sun</b>
+        <b className="teammate">
+          Sun
+          <img src={Venusaur} alt="Venusaur" className="sprite" />
+          <img src={Torkoal} alt="Torkoal" className="sprite" />
+        </b>
         <p>Tapu Koko is incredibly valuable in a matchup against sun. The electric terrain that it sets means that Venusaur is forced into an offensive position, and will likely Gigantamax and start firing off attacks instead of opting for a Sleep Powder. Use this to your advantage. Pokemon like Safety Goggles Rotom-Heat and Assault Vest Kartana are also reasonably good answers to sun, provided that you remove any threatening Fire types in the case of Kartana.</p>
 
-        <b>Galarian Moltres</b>
+        <b className="teammate">
+          Galarian Moltres
+          <img src={Moltres} alt="Moltres-Galar" className="sprite" />
+        </b>
         <p>Against this kind of team, it is usually best to try and avoid activating the Moltres’ Weakness Policy, but if their partners activate it for them, fire off strong attacks to try and finish it off. In the event that the Moltres has a Comfey as a partner, target that instead to avoid such headaches as Floral Healing and Ally Switch. Tapu Koko, especially Assault Vest variants, will have a relatively easy time dealing with G-Moltres, assuming it’s partner isn’t something like Lightningrod Raichu.</p>
 
-        <b>Mamoswine</b>
+        <b className="teammate">
+          Mamoswine
+          <img src={Mamoswine} alt="Mamoswine" className="sprite" />
+        </b>
         <p>Mamoswine is an alternate partner to Thundurus, and if you find yourself staring those two down, it’s usually best to utilize your strong Rock type to wall them. Remove Mamoswine first, as it threatens your NUT answer. It usually carries the Focus Sash and requires two hits to KO, but some variants run a Life Orb.</p>
 
-        <b>Regieleki</b>
+        <b className="teammate">
+          Regieleki
+          <img src={Regieleki} alt="Regieleki" className="sprite" />
+        </b>
         <p>In the event that a Regieleki is lead, expect Electro Web to be on it. If this is the case, try and eliminate Eleki as soon as possible while conserving Tapu Koko, so that you can still outspeed Urshifu with your Koko. Do not let Urshifu have the potential to sweep in the endgame.</p>
       </div>
 

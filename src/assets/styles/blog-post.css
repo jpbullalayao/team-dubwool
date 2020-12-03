@@ -23,6 +23,23 @@
   margin-top: 25px;
 }
 
+.blog-post-subtitle {
+  display: flex;
+  align-items: center;
+}
+
+.sprite {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.teammate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 600px) {
   .title-section {
     margin-top: 100px;
