@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Helmet } from "react-helmet"
+
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
 import TeamDubwool from '../../images/team-dubwool.png';
@@ -10,6 +12,15 @@ import '../../assets/styles/tournament.css';
 
 const HolidayClashQualifier = () => (
   <Layout>
+    <Helmet>
+      <meta name="twitter:title" content="Team Dubwool Holiday Clash Qualifier | Team Dubwool" /> 
+      <meta name="twitter:image" content={TeamDubwool} /> 
+      <meta name="twitter:card" content={TeamDubwool} />
+
+      <meta property="og:title" content="Team Dubwool Holiday Clash Qualifier | Team Dubwool" />
+      <meta property="og:image" content={TeamDubwool} />
+    </Helmet>
+
     <SEO
       title="Team Dubwool Holiday Clash Qualifier | Team Dubwool"
     />
