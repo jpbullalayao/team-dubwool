@@ -1,0 +1,33 @@
+.banner {
+  background-image: url('../../assets/tournaments/crown-tundra.jpg');
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: center;
+  height: 700px;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.tournament-section {
+  margin-top: 20px;
+}
+
+.tournament-container {
+  padding: 0 20px 20px 20px;
+}
+
+@media (max-width: 600px) {
+  .banner {
+    height: 450px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .tournament-section {
+    margin-top: 20px;
+  }
+}

@@ -176,14 +176,15 @@ const IndexPage = () => (
 
           <div className="coaching-info-body-container">
             <p className="body">
-              <b>Gab</b> is our Pokemon VGC veteran & coach that has competed in the Pokemon World Championships twice, and has various other accolades such as winning a LatAm Regional Championship. If you are interested in Pokemon VGC coaching sessions with Gab, email us&nbsp;
+            <b>Gab</b> is our Pokemon VGC veteran & coach that has competed in the Pokemon World Championships twice, and has various other accolades such as winning a LatAm Regional Championship. If you are interested in Pokemon VGC coaching sessions with Gab, stay tuned for more information!
+              {/* <b>Gab</b> is our Pokemon VGC veteran & coach that has competed in the Pokemon World Championships twice, and has various other accolades such as winning a LatAm Regional Championship. If you are interested in Pokemon VGC coaching sessions with Gab, email us&nbsp;
               <a
                 href="mailto:teamdubwool@gmail.com?subject=VGC Coaching with Gab"
                 className="coaching-email"
               >
                 here
               </a>
-              &nbsp;for more information.
+              &nbsp;for more information. */}
             </p>
           </div>
         </div>
