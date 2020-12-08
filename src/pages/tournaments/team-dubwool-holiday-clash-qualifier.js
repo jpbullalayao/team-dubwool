@@ -77,7 +77,7 @@ const HolidayClashQualifier = () => (
 
         <div className="tournament-section">
           <b>Please do the following before tournament check-in:</b><br />
-          1. Join the Team Dubwool community at https://discord.gg/4EtN3Zu and go to #tournament-roles to stay up-to-date with this tour, but also future tournament announcements.          
+          1. Join the Team Dubwool community <a href="https://discord.gg/4EtN3Zu" className="link">here</a> and go to #tournament-roles to stay up-to-date with this tour, but also future tournament announcements.          
         </div>
 
         <div className="tournament-section">
