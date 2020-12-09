@@ -6,6 +6,14 @@
   height: 700px;
 }
 
+.banner-daycare {
+  background-image: url('../../assets/misc/daycare.jpg');
+  background-size: cover;
+  /* background-position-y: bottom; */
+  background-position-x: center;
+  height: 700px;
+}
+
 .title {
   margin-top: 20px;
 }
@@ -18,8 +26,12 @@
   padding: 0 20px 20px 20px;
 }
 
+.image {
+  margin: 0;
+}
+
 @media (max-width: 600px) {
-  .banner {
+  .banner, .banner-daycare {
     height: 450px;
   }
 
