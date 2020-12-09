@@ -25,6 +25,11 @@ import Ragna from '../assets/roster/ragna.jpg';
 const IndexPage = () => (
   <>
   <Helmet>
+    <meta name="twitter:title" content="Home | Team Dubwool" /> 
+    <meta name="twitter:image" content={TeamDubwool} /> 
+    <meta name="twitter:card" content={TeamDubwool} />
+
+    <meta property="og:title" content="Home | Team Dubwool" />
     <meta property="og:image" content={TeamDubwool} />
   </Helmet>
   <SEO
