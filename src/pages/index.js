@@ -24,9 +24,9 @@ import Ragna from '../assets/roster/ragna.jpg';
 
 const IndexPage = () => (
   <>
-  <Helmet>
-    <title>Team Dubwool</title>
-  </Helmet>
+  <SEO
+    title="Home"
+  />
   <Layout>
   <div className="bg">
     <nav className="nav">
