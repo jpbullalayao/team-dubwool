@@ -24,6 +24,9 @@ import Ragna from '../assets/roster/ragna.jpg';
 
 const IndexPage = () => (
   <>
+  <Helmet>
+    <meta property="og:image" content={TeamDubwool} />
+  </Helmet>
   <SEO
     title="Home"
   />
