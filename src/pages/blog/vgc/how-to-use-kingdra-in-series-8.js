@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Helmet } from "react-helmet"
+
 import Layout from '../../../components/layout';
 import SEO from '../../../components/seo';
 import TeamDubwool from '../../../images/team-dubwool.png';
@@ -16,6 +18,14 @@ import Kingdra from '../../../assets/pokemon/kingdra.png';
 
 export const KingdraPost = () => (
   <Layout>
+    <Helmet>
+      <meta name="twitter:title" content="How to Use Kingdra in Series 8 | Team Dubwool" /> 
+      <meta name="twitter:image" content={TeamDubwool} /> 
+      <meta name="twitter:card" content={TeamDubwool} />
+
+      <meta property="og:title" content="How to Use Kingdra in Series 8 | Team Dubwool" />
+      <meta property="og:image" content={TeamDubwool} />
+    </Helmet>
     <SEO
       title="How to Use Kingdra in Series 8 | Team Dubwool"
     />
