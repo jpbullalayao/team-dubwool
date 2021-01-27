@@ -160,7 +160,7 @@ const IndexPage = () => (
                 className="avatar"
               />
               <h3 className="team-member-name">
-                Gabu
+                Eni Guma
               </h3>
             </div>
           {/* </div> */}
@@ -177,22 +177,15 @@ const IndexPage = () => (
         <div className="coaching-info-container">
           <div className="coaching-avatar-container">
             <img 
-              src={Gab}
+              src={Echo}
               className="coaching-avatar"
             />
           </div>
 
           <div className="coaching-info-body-container">
             <p className="body">
-            <b>Gab</b> is our Pokemon VGC veteran & coach that has competed in the Pokemon World Championships twice, and has various other accolades such as winning a LatAm Regional Championship. If you are interested in Pokemon VGC coaching sessions with Gab, stay tuned for more information!
-              {/* <b>Gab</b> is our Pokemon VGC veteran & coach that has competed in the Pokemon World Championships twice, and has various other accolades such as winning a LatAm Regional Championship. If you are interested in Pokemon VGC coaching sessions with Gab, email us&nbsp;
-              <a
-                href="mailto:teamdubwool@gmail.com?subject=VGC Coaching with Gab"
-                className="coaching-email"
-              >
-                here
-              </a>
-              &nbsp;for more information. */}
+              Are you a new Pokemon VGC player looking to learn the ropes of high competitive play? Are you a seasoned VGC player looking to gather new insight and perspectives for Series 8 on team building, decision making, and other aspects of VGC? Our own <b>Echo Rose</b> offers coaching sessions to all types of players for only <b>$8</b> an hour. If you are interested in learning more, feel free to contact us&nbsp;
+              <a href="mailto:teamdubwool@gmail.com?subject=VGC Coaching with Echo" className="link">here</a>, and we'll be happy to help!
             </p>
           </div>
         </div>

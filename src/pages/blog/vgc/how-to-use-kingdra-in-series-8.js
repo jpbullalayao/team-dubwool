@@ -9,12 +9,12 @@ import '../../../assets/styles/blog-post.css';
 import '../../../assets/styles/index.css';
 
 import TurtleRental from '../../../assets/misc/turtle-rental.png';
-import Kartana from '../../../assets/pokemon/kartana2.png';
-import Tornadus from '../../../assets/pokemon/tornadus.png';
-import Incineroar from '../../../assets/pokemon/incineroar.png';
-import Regieleki from '../../../assets/pokemon/regieleki2.png';
-import Kyogre from '../../../assets/pokemon/kyogre.png';
-import Kingdra from '../../../assets/pokemon/kingdra.png';
+import Kartana from '../../../assets/pokemon/kartana3d.png';
+import Tornadus from '../../../assets/pokemon/tornadus3d.png';
+import Incineroar from '../../../assets/pokemon/incineroar3d.png';
+import Regieleki from '../../../assets/pokemon/regieleki3d.png';
+import Kyogre from '../../../assets/pokemon/kyogre3d.png';
+import Kingdra from '../../../assets/pokemon/kingdra3d.png';
 
 export const KingdraPost = () => (
   <Layout>
