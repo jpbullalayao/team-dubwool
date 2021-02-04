@@ -1,0 +1,136 @@
+body {
+  background-color: #eee;
+  min-height: 100vh;
+}
+
+.profile-container {
+  padding-top: 85px;
+}
+
+.profile-section {
+  margin-top: 40px;
+}
+
+.profile-body {
+  font-size: 16px;
+  font-family: Helvetica;
+}
+
+.section-overview {
+  display: flex;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #bbb;
+}
+
+.profile-avatar {
+  border-radius: 150px;
+  height: 200px;
+  width: 200px;
+  margin: 0;
+}
+
+.avatar-container {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  padding-right: 25px;
+}
+
+.overview-container {
+  display: flex;
+  padding-left: 25px;
+  flex: 3;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+}
+
+.social-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+.profile-section-header {
+  font-family: 'Geneva';
+}
+
+.profile-name {
+  font-size: 48px;
+  font-family: 'BatmanForeverAlternate';
+}
+
+.socials-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.social {
+  margin-right: 30px;
+}
+
+.cp-title {
+  display: inline-block;
+  font-weight: bold;
+  width: 100px;
+}
+
+.section-achievements {
+  margin-bottom: 40px;
+}
+
+.achievements-groups {
+  display: flex;
+}
+
+.achievements-group {
+  margin-right: 50px;
+}
+
+.achievements-list {
+  list-style-type: none;
+  margin: 0;
+}
+
+.event-name {
+  font-weight: bold;
+}
+
+.event-year {
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-overview {
+    flex-direction: column;
+  }
+
+  .profile-name {
+    text-align: center;
+  }
+
+  .avatar-container {
+    margin-bottom: 15px;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .socials-container {
+    justify-content: center;
+  }
+
+  .achievements-groups {
+    flex-direction: column;
+  }
+}
