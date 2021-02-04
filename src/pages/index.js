@@ -58,7 +58,7 @@ const IndexPage = () => (
         </h2>
 
         <p className="body">
-          Team Dubwool is a gaming community with an esports organization competing in Pokemon Sword & Shield. We are focused on not only competing in tournaments at the highest level, but we are also focused on growing the community by providing support & mentorship to community streamers & competitive players, and hosting tournaments to grow each other's skillsets and help each other become better competitive players.
+          Team Dubwool is a gaming community with an esports organization competing in Pokemon Sword & Shield. We are focused on not only competing in tournaments at the highest level, but also growing the community by providing support & mentorship to community streamers & competitive players, and hosting tournaments to grow each other's skillsets and help each other become better competitive players. At the same time, we enjoy creating content and resources for the general VGC community to enjoy and learn from.
         </p>
       </div>
     </section>
