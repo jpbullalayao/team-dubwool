@@ -17,7 +17,7 @@ const ProfessorRagna = () => (
   <Layout>
     <div className="profile-page-container">
       <nav className="nav">
-        <a href="http://dubwool.gg" className="logo-container">
+        <a href="https://www.teamdubwool.com" className="logo-container">
           <div className="">
             <img
               src={TeamDubwool}
