@@ -16,11 +16,12 @@ import Brain from '../assets/roster/brain.png';
 import Echo from '../assets/roster/echo.jpg';
 import Gab from '../assets/roster/gab.jpg';
 import Justin from '../assets/roster/justin.png';
-import Midori from '../assets/roster/midori.jpg';
+import Midori from '../assets/roster/midori2.png';
 import MrPig from '../assets/roster/mrpig.png';
 import Muk from '../assets/roster/muk.jpg';
 import Pride from '../assets/roster/pride.png';
 import Ragna from '../assets/roster/ragna.jpg';
+import Turtle from '../assets/roster/turtlemania.jpeg';
 
 const IndexPage = () => (
   <>
@@ -161,6 +162,16 @@ const IndexPage = () => (
               />
               <h3 className="team-member-name">
                 Eni Guma
+              </h3>
+            </div>
+
+            <div className="team-member">
+              <img 
+                src={Turtle}
+                className="avatar"
+              />
+              <h3 className="team-member-name">
+                TurtleManiaVGC
               </h3>
             </div>
           {/* </div> */}
