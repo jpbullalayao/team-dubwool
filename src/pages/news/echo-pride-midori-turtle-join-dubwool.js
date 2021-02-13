@@ -82,14 +82,14 @@ export const EchoPrideMidoriTurtleJoinDubwool = () => (
 
           <p>
             You can find Echo primarily on Twitter:&nbsp;
-            <a href="https://twitter.com/echo_rose" className="link">@echo_rose</a>
+            <a href="https://twitter.com/echo_rose" className="link" target="_blank">@echo_rose</a>
           </p>
         </div>
 
         <div className="blog-section">
           <h2>PrideVGC</h2>
 
-          <p>Pride became interested in VGC during Pokemon ORAS, where he was inspired primarily by Aaron Zheng's (<a href="https://youtube.com/user/CybertronProductions" className="link">CybertronVGC</a>) videos. Pride then began playing VGC in mid-2020, and eventually grew to like the competitive scene after placing 2nd in his first tournament hosted by Team Dubwool. Pride has also placed Top 2 and Top 5 in subsequent tournaments hosted by Team Dubwool.</p>
+          <p>Pride became interested in VGC during Pokemon ORAS, where he was inspired primarily by Aaron Zheng's (<a href="https://youtube.com/user/CybertronProductions" className="link" target="_blank">CybertronVGC</a>) videos. Pride then began playing VGC in mid-2020, and eventually grew to like the competitive scene after placing 2nd in his first tournament hosted by Team Dubwool. Pride has also placed Top 2 and Top 5 in subsequent tournaments hosted by Team Dubwool.</p>
 
           <p>Pride also competes in Super Smash Bros. Ultimate, where he entered local tournaments before the pandemic. Since then, he has continued to play Smash and mains Toon Link.</p>
 
@@ -97,12 +97,12 @@ export const EchoPrideMidoriTurtleJoinDubwool = () => (
 
           <p>
             Twitter:&nbsp;
-            <a href="https://twitter.com/PrideVGC" className="link">@PrideVGC</a>
+            <a href="https://twitter.com/PrideVGC" className="link" target="_blank">@PrideVGC</a>
           </p>
 
           <p>
             Twitch:&nbsp;
-            <a href="https://twitch.tv/PrideVGC" className="link">PrideVGC</a>
+            <a href="https://twitch.tv/PrideVGC" className="link" target="_blank">PrideVGC</a>
           </p>
         </div>
 
@@ -115,12 +115,12 @@ export const EchoPrideMidoriTurtleJoinDubwool = () => (
 
           <p>
             Twitter:&nbsp;
-            <a href="https://twitter.com/midorinekonya" className="link">@midorinekonya</a>
+            <a href="https://twitter.com/midorinekonya" className="link" target="_blank">@midorinekonya</a>
           </p>
 
           <p>
             Twitch:&nbsp;
-            <a href="https://twitch.tv/MidoriNekoNya" className="link">MidoriNekoNya</a>
+            <a href="https://twitch.tv/MidoriNekoNya" className="link" target="_blank">MidoriNekoNya</a>
           </p>
         </div>
 
@@ -135,17 +135,17 @@ export const EchoPrideMidoriTurtleJoinDubwool = () => (
 
           <p>
             Twitter:&nbsp;
-            <a href="https://twitter.com/TurtleMania7" className="link">TurtleMania7</a>
+            <a href="https://twitter.com/TurtleMania7" className="link" target="_blank">TurtleMania7</a>
           </p>
 
           <p>
             Twitch:&nbsp;
-            <a href="https://twitter.com/turtlemaniavgc" className="link">turtlemaniavgc</a>
+            <a href="https://twitter.com/turtlemaniavgc" className="link" target="_blank">turtlemaniavgc</a>
           </p>
 
           <p>
             YouTube:&nbsp;
-            <a href="https://www.youtube.com/channel/UCjTfasxesGbtcZgU0A7uMbA" className="link">TurtleManiaVGC</a>
+            <a href="https://www.youtube.com/channel/UCjTfasxesGbtcZgU0A7uMbA" className="link" target="_blank">TurtleManiaVGC</a>
           </p>
         </div>
       </div>
