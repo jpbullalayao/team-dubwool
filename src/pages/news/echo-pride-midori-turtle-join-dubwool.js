@@ -127,7 +127,7 @@ export const EchoPrideMidoriTurtleJoinDubwool = () => (
 
           <p>
             YouTube:&nbsp;
-            <a href="http://midori.video" className="link" target="_blank">Midori Ch.</a>
+            <a href="http://midori.video" className="link" target="_blank">Midori Ch. 小鳥遊 緑</a>
           </p>
         </div>
 
