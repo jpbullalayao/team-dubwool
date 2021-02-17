@@ -70,7 +70,7 @@ export const EchoPrideMidoriTurtleJoinDubwool = () => (
         </div>
 
         <p>
-          Team Dubwool is excited to introduce to you the newest class of Pokemon VGC players and content creators that have joined our team the past couple months! Welcome to the team, <b>Echo Rose, PrideVGC, Midori,</b> and <b>TurtlemaniaVGC!</b>
+          Team Dubwool is excited to introduce to you the newest class of Pokemon VGC/TCG players and content creators that have joined our team the past couple months! Welcome to the team, <b>Echo Rose, PrideVGC, Midori,</b> and <b>TurtlemaniaVGC!</b>
         </p>
 
         <div className="blog-section">
