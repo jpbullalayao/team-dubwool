@@ -109,7 +109,7 @@ export const EchoPrideMidoriTurtleJoinDubwool = () => (
         <div className="blog-section">
           <h2>Midori</h2>
 
-          <p>Midori is VTuber and a Pokemon VGC and TCG veteran, having played TCG since Summer 2011 (beginning with a Reshiram + Emboar deck) and VGC since Fall 2013 (starting with weather archetypes). She has top cut both VCG and TCG regionals, as well as VGC internationals, and has achieved as high as a Top 8 placement in these events. More recently, she also participated in the recent Women's Tournament II and placed at Top 8 of the event.</p>
+          <p>Midori is a VTuber and a Pokemon VGC and TCG veteran, having played TCG since Summer 2011 (beginning with a Reshiram + Emboar deck) and VGC since Fall 2013 (starting with weather archetypes). She has top cut both VCG and TCG regionals; obtained Top 64 at VGC internationals, Top 32 in TCG regionals, and Top 8 in VGC regionals. More recently, she also participated in the recent Women's Tournament II and placed at Top 8 of the event.</p>
 
           <p>Midori mostly competes only in Pokemon VGC, however each generation she tends to return to TCG for a bit and is aiming to top cut TCG in Players Cup 4 or 5.</p>
 
@@ -134,7 +134,7 @@ export const EchoPrideMidoriTurtleJoinDubwool = () => (
         <div className="blog-section">
           <h2>TurtleManiaVGC</h2>
 
-          <p>TurtleMania has enjoyed the Pokemon series for several years but started playing competitively in August 2020. Since he started playing competitively, he began creating video and written guides of various topics for the general VGC community, ranging from team building for each series, to battle replays, to team reports for tournaments that he won. Some achievements of his include winning the first Series 8 tournament for Pokemon Sword/Shield hosted by <a href="https://twitter.com/NinoPokeBros" className="link" target="_blank">NinoPokeBros</a>, as well as receiving Top 250 on the Series 7 Ranked Ladder.</p>
+          <p>TurtleMania has enjoyed the Pokemon series for several years but started playing competitively in August 2020. Since he started playing competitively, he began creating video and written guides of various topics for the general VGC community, ranging from team building for each series, to battle replays, to team reports for tournaments that he won. Some achievements of his include winning the first Series 8 tournament for Pokemon Sword/Shield hosted by <a href="https://twitter.com/NinoPokeBros" className="link" target="_blank">NinoPokeBros</a>, achieving 2nd in the Battle of Legends tournament hosted by Team Dubwool, as well as receiving Top 250 on the Series 7 Ranked Ladder.</p>
 
           <p>While he competes in Pokemon primarily, he also enjoys playing rhythm games at a high level such as osu!.</p>
 
