@@ -196,10 +196,44 @@ const IndexPage = () => (
           <div className="coaching-info-body-container">
             <p className="body">
               Are you a new Pokemon VGC player looking to learn the ropes of high competitive play? Are you a seasoned VGC player looking to gather new insight and perspectives for Series 8 on team building, decision making, and other aspects of VGC? Our own <b>Echo Rose</b> offers coaching sessions to all types of players for only <b>$8</b> an hour. If you are interested in learning more, feel free to contact us&nbsp;
-              <a href="mailto:teamdubwool@gmail.com?subject=VGC Coaching with Echo" className="link">here</a>, and we'll be happy to help!
+              <a href="mailto:teamdubwool@gmail.com?subject=VGC Coaching with Echo" className="link">here</a>, and we'll be happy to help! Or, you can contact him on social:<br />
+            </p>
+
+            <p className="body">
+              Twitter:&nbsp;
+              <a href="https://twitter.com/echo_rose" className="link" target="_blank">
+                @echo_rose
+              </a>
             </p>
           </div>
         </div>
+
+        <br />
+        <br />
+
+        <div className="coaching-info-container">
+          <div className="coaching-avatar-container">
+            <img 
+              src={Turtle}
+              className="coaching-avatar"
+            />
+          </div>
+
+          <div className="coaching-info-body-container">
+            <p className="body">
+              Are you a beginner to VGC looking for some guidance? An intermediate player looking to take your game to the next level? A well seasoned player looking to sharpen your skills and explore new ideas? No matter what skill you are, coaching can help! For just <b>$8</b> an hour, <b>Turtlemania</b> will provide you with tailored lessons on teambuilding, threat recognition, replay analysis and other VGC skills! If you are interested in learning more, please email us&nbsp;
+              <a href="mailto:teamdubwool@gmail.com?subject=VGC Coaching with Turtlemania" className="link">here</a> or contact him on either of the following:<br />
+            </p>
+
+            <p className="body no-margin">
+              Discord: TurtleMania#0744<br />
+              Twitter:&nbsp;
+              <a href="https://twitter.com/Turtlemania7" className="link" target="_blank">
+                @Turtlemania7
+              </a>
+            </p>
+          </div>
+        </div> 
       </div>
     </section>
 

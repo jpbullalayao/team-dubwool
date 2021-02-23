@@ -9,6 +9,10 @@
   /* src: local('BatmanForeverAlternate'), url('../fonts/batmfa__.ttf') format('ttf'); */
 }
 
+.no-margin {
+  margin: 0;
+}
+
 /* .bg {
   background-color: #000;
 } */
@@ -155,12 +159,12 @@
 }
 
 .coaching-avatar-container {
-  height: 300px;
+  height: 200px;
 }
 
 .coaching-avatar {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 200px;
   flex: 1;
   margin-bottom: 0;
