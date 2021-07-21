@@ -23,6 +23,10 @@ import Pride from '../assets/roster/pride.png';
 import Ragna from '../assets/roster/ragna.jpg';
 import Turtle from '../assets/roster/turtlemania.jpeg';
 
+import GGST from '../assets/games/ggst.png';
+import SSBU from '../assets/games/ssbu.png';
+import SWSH from '../assets/games/swsh.png';
+
 const IndexPage = () => (
   <>
   <Helmet>
@@ -59,7 +63,7 @@ const IndexPage = () => (
         </h2>
 
         <p className="body">
-          Team Dubwool is a gaming community with an esports organization competing in Pokemon Sword & Shield. We are focused on not only competing in tournaments at the highest level, but also growing the community by providing support & mentorship to community streamers & competitive players, and hosting tournaments to grow each other's skillsets and help each other become better competitive players. At the same time, we enjoy creating content and resources for the general VGC community to enjoy and learn from.
+          Team Dubwool is a gaming community with an esports organization competing in Pokemon Sword & Shield, Guilty Gear -Strive-, and SSBU. We are focused on not only competing in tournaments at the highest level, but also growing the community by providing support & mentorship to community streamers & competitive players, and hosting tournaments to grow each other's skillsets and help each other become better competitive players. At the same time, we enjoy creating content and resources for the general gaming community to enjoy and learn from.
         </p>
       </div>
     </section>
@@ -181,6 +185,67 @@ const IndexPage = () => (
 
     <section className="section bg-white">
       <div className="container">
+        {/* <h2 className="subheader black">
+          Games
+        </h2> */}
+
+        <div className="games">
+          <div
+            className="game-image-container"
+          >
+
+          <img
+            src={GGST}
+            className="game-image"
+          />
+          </div>
+
+          <div
+            className="game-image-container"
+          >
+          <img
+            src={SWSH}
+            className="game-image"
+          />
+          </div>
+
+          <div
+            className="game-image-container"
+          >
+          <img
+            src={SSBU}
+            className="game-image"
+          />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section className="section section-discord bg-black">
+      <div
+        className="section-discord-item"
+      >
+        <a href="https://discord.gg/zHTWnhqm3y">
+          <img
+            src={Discord}
+            className="discord-logo"
+          />
+        </a>
+      </div>
+      <div
+        className="section-discord-item"
+      >
+        <a
+          href="https://discord.gg/zHTWnhqm3y"
+          className="discord-text"
+        >
+          Join us on Discord!
+        </a>
+      </div>     
+    </section>
+
+    <section className="section bg-white">
+      <div className="container">
         <h2 className="subheader black">
           Coaching
         </h2>
@@ -237,38 +302,15 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="section section-discord bg-black">
-      <div
-        className="section-discord-item"
-      >
-        <a href="https://discord.gg/4EtN3Zu">
-          <img
-            src={Discord}
-            className="discord-logo"
-          />
-        </a>
-      </div>
-      <div
-        className="section-discord-item"
-      >
-        <a
-          href="https://discord.gg/4EtN3Zu"
-          className="discord-text"
-        >
-          Join us on Discord!
-        </a>
-      </div>     
-    </section>
-
-    <section className="section bg-white">
+    <section className="section bg-black">
       <div className="container">
-        <h2 className="subheader black">Contact</h2>
+        <h2 className="subheader white">Contact</h2>
 
-        <p className="body black">
+        <p className="body white">
           For any business or other inquiries, don't hesitate to reach us! You can join the Discord and privately message <b>Professor Ragna#1337</b>, or you can contact us via e-mail at&nbsp;
           <a
             href="mailto:teamdubwool@gmail.com"
-            className="team-email"
+            className="team-email white"
           >
             teamdubwool@gmail.com
           </a>
