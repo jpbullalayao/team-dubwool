@@ -291,6 +291,24 @@
     margin: 0;
   }
 
+  .games {
+    flex-direction: column;
+  }
+
+  .game-image-container {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .game-image {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .game-image-container:last-child {
+    margin-bottom: 0;
+  }
+
   .coaching-info-container {
     flex-direction: column;
   }
