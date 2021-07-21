@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../../../components/layout';
 import SEO from '../../../components/seo';
-import TeamDubwool from '../../../images/team-dubwool.png';
+import TeamDubwool from '../../../images/team-dubwool-v2.png';
 import '../../../assets/styles/blog-post.css';
 import '../../../assets/styles/index.css';
 

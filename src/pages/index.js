@@ -8,7 +8,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 import '../assets/styles/index.css';
-import TeamDubwool from '../images/team-dubwool.png';
+import TeamDubwool from '../images/team-dubwool-v2.png';
 import Discord from '../images/discord.png';
 
 import favicon from '../images/favicon.ico';

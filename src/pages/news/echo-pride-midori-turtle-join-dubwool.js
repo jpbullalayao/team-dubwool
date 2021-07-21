@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
-import TeamDubwool from '../../images/team-dubwool.png';
+import TeamDubwool from '../../images/team-dubwool-v2.png';
 
 import Echo from '../../assets/roster/echo.jpg';
 import Pride from '../../assets/roster/pride2.png';
