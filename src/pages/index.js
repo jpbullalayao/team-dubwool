@@ -15,7 +15,6 @@ import favicon from '../images/favicon.ico';
 import Brain from '../assets/roster/brain.png';
 import Echo from '../assets/roster/echo.jpg';
 import Gab from '../assets/roster/gab.jpg';
-import Justin from '../assets/roster/justin.png';
 import Midori from '../assets/roster/midori2.png';
 import MrPig from '../assets/roster/mrpig.png';
 import Muk from '../assets/roster/muk.jpg';
@@ -109,15 +108,6 @@ const IndexPage = () => (
           {/* </div> */}
 
           {/* <div className="roster-row"> */}
-            <div className="team-member">
-              <img 
-                src={Justin}
-                className="avatar"
-              />
-              <h3 className="team-member-name">
-                JustinSnores
-              </h3>
-            </div>
 
             <div className="team-member">
               <img 
@@ -244,7 +234,7 @@ const IndexPage = () => (
       </div>     
     </section>
 
-    <section className="section bg-white">
+    {/* <section className="section bg-white">
       <div className="container">
         <h2 className="subheader black">
           Coaching
@@ -300,17 +290,17 @@ const IndexPage = () => (
           </div>
         </div> 
       </div>
-    </section>
+    </section> */}
 
-    <section className="section bg-black">
+    <section className="section bg-white">
       <div className="container">
-        <h2 className="subheader white">Contact</h2>
+        <h2 className="subheader black">Contact</h2>
 
-        <p className="body white">
+        <p className="body black">
           For any business or other inquiries, don't hesitate to reach us! You can join the Discord and privately message <b>Professor Ragna#1337</b>, or you can contact us via e-mail at&nbsp;
           <a
             href="mailto:teamdubwool@gmail.com"
-            className="team-email white"
+            className="team-email black"
           >
             teamdubwool@gmail.com
           </a>
