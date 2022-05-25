@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import { Avatar } from '../components/Avatar';
 
 import '../assets/styles/index.css';
 import TeamDubwool from '../images/team-dubwool-v2.png';
@@ -76,9 +76,8 @@ const IndexPage = () => (
         <div className="roster">
           {/* <div className="roster-row"> */}
             <div className="team-member">
-              <img 
+              <Avatar
                 src={Echo}
-                className="avatar"
               />
               <h3 className="team-member-name">
                 Echo Rose
@@ -86,9 +85,8 @@ const IndexPage = () => (
             </div>
 
             <div className="team-member">
-              <img 
+              <Avatar
                 src={Pride}
-                className="avatar"
               />
               <h3 className="team-member-name">
                 PrideVGC
@@ -110,9 +108,8 @@ const IndexPage = () => (
           {/* <div className="roster-row"> */}
 
             <div className="team-member">
-              <img 
+              <Avatar
                 src={Brain}
-                className="avatar"
               />
               <h3 className="team-member-name">
                 BrainVGC
@@ -120,9 +117,8 @@ const IndexPage = () => (
             </div>
 
             <div className="team-member">
-              <img 
+              <Avatar
                 src={MrPig}
-                className="avatar"
               />
               <h3 className="team-member-name">
                 MrPig28
@@ -130,9 +126,8 @@ const IndexPage = () => (
             </div>
 
             <div className="team-member">
-              <img 
+              <Avatar
                 src={Ragna}
-                className="avatar"
               />
               <h3 className="team-member-name">
                 Professor Ragna
@@ -140,9 +135,8 @@ const IndexPage = () => (
             </div>
 
             <div className="team-member">
-              <img 
+              <Avatar
                 src={Midori}
-                className="avatar"
               />
               <h3 className="team-member-name">
                 Midori
@@ -150,9 +144,8 @@ const IndexPage = () => (
             </div>
 
             <div className="team-member">
-              <img 
+              <Avatar
                 src={Gab}
-                className="avatar"
               />
               <h3 className="team-member-name">
                 Eni Guma
@@ -160,9 +153,8 @@ const IndexPage = () => (
             </div>
 
             <div className="team-member">
-              <img 
+              <Avatar
                 src={Turtle}
-                className="avatar"
               />
               <h3 className="team-member-name">
                 TurtleManiaVGC
