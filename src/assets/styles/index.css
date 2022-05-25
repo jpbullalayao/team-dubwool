@@ -9,16 +9,19 @@
   /* src: local('BatmanForeverAlternate'), url('../fonts/batmfa__.ttf') format('ttf'); */
 }
 
-/* .bg {
-  background-color: #000;
-} */
+.no-margin {
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #16ab90;
+}
 
 .container {
   display: flex;
   flex-direction: column;
-  /* height: 100vh; */
   max-width: 1000px;
-  /* align-items: center; */
   margin: auto;
 }
 
@@ -38,6 +41,10 @@
 
 .bg-white {
   background: #fff;
+}
+
+.bg-grey {
+  background: #ddd;
 }
 
 .black {
@@ -107,10 +114,26 @@
   margin-top: 50px; */
 }
 
+.games {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-image-container {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+
+.game-image {
+  width: 100%;
+  margin: 0;
+}
+
 .roster {
   display: grid;
   /* flex-direction: column; */
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .roster-row {
@@ -147,12 +170,12 @@
 }
 
 .coaching-avatar-container {
-  height: 300px;
+  height: 200px;
 }
 
 .coaching-avatar {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 200px;
   flex: 1;
   margin-bottom: 0;
@@ -197,7 +220,6 @@
 }
 
 .team-email {
-  color: #000;
   font-weight: bold;
   text-decoration: none;
 }
@@ -213,6 +235,12 @@
 .twitter-name {
   color: white;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .roster {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 600px) {
@@ -254,12 +282,31 @@
 
   .team-member {
     margin-bottom: 25px;
+    justify-content: center;
   }
 
   .team-member-name {
     font-size: 14px;
     text-align: center;
     margin: 0;
+  }
+
+  .games {
+    flex-direction: column;
+  }
+
+  .game-image-container {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .game-image {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .game-image-container:last-child {
+    margin-bottom: 0;
   }
 
   .coaching-info-container {
