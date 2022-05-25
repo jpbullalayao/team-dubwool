@@ -1,7 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import { Helmet } from "react-helmet"
+
+import { Box } from '@professorragna/box';
+import { Flex } from '@professorragna/flex';
+import { Image } from '@professorragna/image';
+import { Link } from '@professorragna/link';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -40,18 +44,26 @@ const IndexPage = () => (
     title="Home"
   />
   <Layout>
+
   <div className="bg">
     <nav className="nav">
       <a href="https://www.teamdubwool.com" className="logo-container">
-        <div className="">
-          <img
+        <Box>
+          <Image
             src={TeamDubwool}
-            className="nav-logo"
+            height="65px"
+            width="65px"
           />
-        </div>
-        <div className="team-name">
+        </Box>
+        <Flex
+          alignItems="center"
+          color="white"
+          fontFamily="BatmanForeverAlternate"
+          fontSize="26px"
+          ml="10px"
+        >
           Team Dubwool
-        </div>
+        </Flex>
       </a>
     </nav>
 
@@ -303,12 +315,16 @@ const IndexPage = () => (
 
     <footer className="footer bg-black">
       Built by
-      <a
-        className="twitter-name"
+      <Link
         href="https://twitter.com/professorragna"
+        color="white"
+        style={{
+          textDecoration: 'none',
+        }}
+        target="_blank"
       >
         &nbsp;@professorragna
-      </a>
+      </Link>
     </footer>
   </div>
   </Layout>
